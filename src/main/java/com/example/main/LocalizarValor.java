@@ -4,7 +4,7 @@ import java.io.*;
 
 public class LocalizarValor {
 
-    String valor = null, diretorio = null, arquivo = null, linha = null, dir = "A:\\Ulisses\\Projetos de Desenvolvimento\\LocalizeValor\\Historico.txt";
+    String valor = null, diretorio = null, linha = null, dir = "A:\\Ulisses\\Projetos de Desenvolvimento\\LocalizeValor\\Historico.txt";
 
     int qtd = 0;
 
