@@ -18,6 +18,8 @@ public class LocalizarValor {
         } else {
 
             System.out.println("\nContém " + qtd + " arquivo(s) nesta valor \"" + valor + "\".");
+
+            DiretorioArmazenado();
         }
 
         System.out.println("----------------------------------------------------------------------------------\n");
@@ -48,34 +50,6 @@ public class LocalizarValor {
             }
         }
     }
-
-//    public void LerText() throws IOException {
-//
-//        File arquivo = new File(dir);
-//
-//        FileReader fr = new FileReader(arquivo);
-//        BufferedReader br = new BufferedReader(fr);
-//
-//        linha = br.readLine();
-//
-//        if (linha != null) {
-//
-//            while (linha != null) {
-//
-//                System.out.println(linha + "\n");
-//
-//                linha = br.readLine();
-//            }
-//        } else {
-//
-//            System.out.println("Não existe histórico armazenado.");
-//        }
-//
-//        fr.close();
-//        br.close();
-//    }
-
-
 
     public void DiretorioArmazenado() throws IOException {
 

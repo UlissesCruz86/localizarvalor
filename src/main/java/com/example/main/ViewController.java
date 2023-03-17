@@ -7,7 +7,7 @@ import java.io.*;
 
 public class ViewController {
 
-    String linha = null, dir = "A:\\Ulisses\\Projetos de Desenvolvimento\\Main\\Historico.txt";
+    String linha = null, dir = "A:\\Ulisses\\Projetos de Desenvolvimento\\LocalizarValor\\Historico.txt";
 
     int qtd = 0;
 
